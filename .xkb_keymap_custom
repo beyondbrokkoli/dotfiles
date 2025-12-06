@@ -4,7 +4,7 @@ xkb_keymap {
     xkb_compat    { include "complete" };
     xkb_symbols   {
         include "pc+de+inet(evdev)"
-        key <RCTL> { [ Shift_L ] };
+        key <CAPS> { [ Shift_L ] };
         modifier_map Shift { Shift_L };
     };
     xkb_geometry  { include "pc(pc105)" };
