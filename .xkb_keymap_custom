@@ -1,0 +1,16 @@
+xkb_keymap {
+    xkb_keycodes  { include "evdev+aliases(qwertz)" };
+    xkb_types     { include "complete" };
+    xkb_compat    { include "complete" };
+    xkb_symbols   {
+        include "pc+de+inet(evdev)"
+
+        // Remap Right Control (<RCTL>) to act as Shift_L
+        key <RCTL> { [ Shift_L ] };
+        modifier_map Shift { Shift_L };
+    };
+    xkb_geometry  { include "pc(pc105)" };
+};
+
+
+
