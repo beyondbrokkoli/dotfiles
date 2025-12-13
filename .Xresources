@@ -1,0 +1,9 @@
+XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.foreground: #f1f1f1
+XTerm.vt100.background: #0f0f0f
+XTerm.vt100.faceName: SourceCodePro
+XTerm.vt100.faceSize: 10
+XTerm*resizeByPixel: true
+
+*.color4: #00ffff
+*.color12:#00ffff
